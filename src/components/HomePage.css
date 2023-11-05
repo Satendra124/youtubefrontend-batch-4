@@ -1,0 +1,125 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 150px;
+  background-color: grey;
+  margin: 5px;
+}
+
+.search {
+  width: 450px;
+  background-color: grey;
+  margin: 6px;
+  display: flex;
+  flex-direction: row;
+}
+
+.signin {
+  width: 150px;
+  background-color: grey;
+  margin: 5px;
+}
+
+.logoimage {
+  width: 150px;
+}
+
+.sidebar {
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarItem {
+  margin: 10px;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.videos {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 400px;
+  height: 300px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.thumbnail {
+  flex: 5;
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 100%;
+}
+
+.titlewrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.channelphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+.title {
+  flex: 1;
+}
+
+.channel {
+  flex: 1;
+}
+
+.views {
+  flex: 1;
+}
+
+.searchInput {
+  border: 1px grey solid;
+  flex: 4;
+}
+
+.searchButton {
+  width: 150px;
+  flex: 1;
+}
+.signInButton {
+  width: 100%;
+  height: 100%;
+}
+
+.channelImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
