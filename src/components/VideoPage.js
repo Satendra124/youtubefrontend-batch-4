@@ -1,24 +1,28 @@
 import HeaderComponent from "./HeaderComponent";
 import "./VideoPage.css";
 
-
-function SuggestedVideo(){
-  return (<>
-    <div className='suggested-video'>
-      <div className='suggestion-image'>
-        <img src="https://i.ytimg.com/vi/SlPhMPnQ58k/mqdefault.jpg" width={'230px'} />
-      </div>
-      <div className='suggestion-content'>
-        <div class="video-info">
+function SuggestedVideo() {
+  return (
+    <>
+      <div className="suggested-video">
+        <div className="suggestion-image">
+          <img
+            src="https://i.ytimg.com/vi/SlPhMPnQ58k/mqdefault.jpg"
+            width={"230px"}
+          />
+        </div>
+        <div className="suggestion-content">
+          <div class="video-info">
             <p class="video-sug-title">
               Kalank Title Track - Lyrical | Alia Bhatt
             </p>
             <p class="margin-0 smaller-fontsize">T-Series</p>
             <p class="margin-0 smaller-fontsize">230M views . 4 years ago</p>
+          </div>
         </div>
       </div>
-    </div>
-  </>);
+    </>
+  );
 }
 
 const VideoPage = () => {
@@ -44,9 +48,19 @@ const VideoPage = () => {
                 }
                 className="channelImage"
               />
+              <div className="channelInfo">
+                <div>MrWhosTheBoss</div>
+                <div>2.3M Subscribers</div>
+              </div>
+              <button className="channelButton">Subscribe</button>
             </div>
-            <div className="likesWrappper"></div>
+            <div className="likesWrappper">
+              <button className="channelButtonLite">Like</button>
+              <button className="channelButtonLite">Dislike</button>
+              <button className="channelButtonLite">Share</button>
+            </div>
           </div>
+          <div className="description">This is description</div>
         </div>
         <div className="suggestions">
           <SuggestedVideo />
@@ -55,7 +69,6 @@ const VideoPage = () => {
           <SuggestedVideo />
           <SuggestedVideo />
           <SuggestedVideo />
-          
         </div>
       </div>
     </div>

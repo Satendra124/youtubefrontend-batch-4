@@ -22,7 +22,6 @@
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 10px;
-  
 }
 .title-video {
   font-size: 20px;
@@ -32,6 +31,7 @@
 .channel-video {
   width: 100px;
   height: 100px;
+  align-items: center;
 }
 .channelImage {
   width: 100%;
@@ -39,13 +39,13 @@
   border-radius: 50px;
 }
 
-.suggested-video{
+.suggested-video {
   display: flex;
   margin-top: 10px;
   margin: 8px;
 }
 
-.suggestion-image{
+.suggestion-image {
   width: 60%;
 }
 
@@ -53,14 +53,57 @@
   border-radius: 3%;
 }
 
-.video-info > p{
+.video-info > p {
   margin-top: 2px;
 }
-.video-info-title{
+.video-info-title {
   font-weight: bolder;
 }
 
-.video-sug-title{
+.video-sug-title {
   font-size: 14px;
-  font-weight: bold ;
+  font-weight: bold;
+}
+
+.channelInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-video {
+  display: flex;
+  flex-direction: row;
+}
+
+.channelWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.description {
+  background-color: rgba(128, 128, 128, 0.132);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.channelButton {
+  width: 160px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid grey;
+  margin: 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.channelButtonLite {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  margin: 5px;
+  border-radius: 30px;
+  margin-left: 10px;
 }
