@@ -10,6 +10,9 @@
   display: flex;
   flex-direction: row;
   border: 1px solid black;
+  position: sticky;
+  top: 0;
+  background-color: white;
   justify-content: space-between;
 }
 
@@ -21,13 +24,12 @@
 
 .logo {
   width: 150px;
-  background-color: grey;
   margin: 5px;
 }
 
 .search {
   width: 450px;
-  background-color: grey;
+
   margin: 6px;
   display: flex;
   flex-direction: row;
@@ -35,12 +37,12 @@
 
 .signin {
   width: 150px;
-  background-color: grey;
+  padding: 5px;
   margin: 5px;
 }
 
 .logoimage {
-  width: 150px;
+  height: 60px;
 }
 
 .sidebar {
@@ -51,10 +53,15 @@
 }
 
 .sidebarItem {
-  margin: 10px;
-  height: 50px;
+  height: 40px;
   vertical-align: middle;
   text-align: center;
+  background-color: rgba(128, 128, 128, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+
 }
 
 .videos {
@@ -65,12 +72,14 @@
 }
 
 .video {
-  width: 400px;
+  width: 350px;
   height: 300px;
-  margin: 5px;
+  margin: 15px;
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
 }
 
 .thumbnail {
@@ -80,6 +89,8 @@
 .thumbnailImage {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
+
 }
 
 .titlewrapper {
@@ -87,17 +98,22 @@
   display: flex;
   flex-direction: row;
 }
+
 .channelphoto {
   width: 60px;
   height: 60px;
   border-radius: 30px;
 }
+
 .title {
   flex: 1;
+  margin: 2px;
 }
 
 .channel {
   flex: 1;
+  margin: 2px;
+  font-weight: bold;
 }
 
 .views {
@@ -105,17 +121,27 @@
 }
 
 .searchInput {
-  border: 1px grey solid;
+  background-color: rgb(240, 238, 238);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 1px solid rgb(176, 175, 175);
   flex: 4;
+  padding-left: 15px;
 }
 
 .searchButton {
   width: 150px;
   flex: 1;
+  border: 1px solid rgb(176, 175, 175);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 5px;
 }
+
 .signInButton {
-  width: 100%;
+  width: 80%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .channelImage {
