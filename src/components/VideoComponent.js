@@ -7,7 +7,7 @@ const VideoComponent = () => {
           <img
             alt="thumbnail"
             src={
-              "https://i.ytimg.com/vi/`Hy55Ij78amM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqIcu-Eej1ZcceapvJYaKVwSbCFQ"
+              "https://i.ytimg.com/vi/SlPhMPnQ58k/mqdefault.jpg"
             }
             className="thumbnailImage"
           />

@@ -28,7 +28,7 @@ const VideoPage = () => {
       <div className="main-video">
         <div className="videoWrapper">
           <iframe
-            src="https://www.youtube.com/embed/Hy55Ij78amM?si=U3aB-mSFPb4Nhhc_"
+            src="https://www.youtube.com/embed/Hy55Ij78amM?rel=0&mute=1&autoplay=1"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

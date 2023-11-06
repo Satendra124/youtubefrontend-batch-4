@@ -14,6 +14,19 @@ const HomePage = () => {
           <div className="sidebarItem">Liked Videos</div>
         </div>
         <div className="videos">
+
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
+          <VideoComponent />
           <VideoComponent />
           <VideoComponent />
           <VideoComponent />
